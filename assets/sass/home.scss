@@ -1,0 +1,69 @@
+@import "reset";
+@import "var";
+@import "fonts";
+
+
+
+html {
+    font-size: 62.5%;
+}
+
+// Navigation menu start
+
+.navbar-custom {
+    background: #0080AF;
+    color: #fff;
+    height: 7.5rem;
+
+    .container {
+        width: 90%;
+        position: relative;
+        .navbar-left {
+            width: 15rem;
+            padding: 1.5rem 1.5rem;
+
+        }
+
+        .navbar-right {
+            position: absolute;
+            top: 40%;
+            right: 0;
+
+            .nav-items {
+                display: flex;
+
+                .nav-item {
+                    padding: 0 1.5rem;
+
+                    a {
+                        color: #fff;
+                    }
+                }
+                
+            }
+        }
+    }
+}
+
+// Navigation menu end
+
+#banner {
+    background: url("https://res.cloudinary.com/matadorsite/image/upload/v1586789436/MPH2/page/about-us/1920x660/15863481176OTtl_l.jpg");
+    height: 75vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+@import "home-responsive";
